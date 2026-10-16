@@ -1,0 +1,33 @@
+[project]
+name = "unicaes-study"
+version = "1.0.0"
+description = "UNICAES 2024 single-arm pre/post study of Focus Bear: de-identified data and analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "Jeremy Nagel" },
+    { name = "Andrea Cuéllar" },
+    { name = "Hector Mena" },
+]
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scipy>=1.11",
+    "seaborn>=0.13",
+    "statsmodels>=0.14",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

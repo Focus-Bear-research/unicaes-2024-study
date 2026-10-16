@@ -1,0 +1,2 @@
+cutoff,n_pre,pos_pre,n_post,pos_post,pct_pre,pct_post,n_paired,pos_to_neg,neg_to_pos,mcnemar_p
+14,65,24,65,17,36.92307692307692,26.153846153846153,65,12,5,0.143463134765625

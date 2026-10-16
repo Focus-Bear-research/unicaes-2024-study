@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "UNICAES 2024: Focus Bear pre/post study, de-identified data and analysis"
+type: dataset
+authors:
+  - family-names: Nagel
+    given-names: Jeremy
+    affiliation: "RMIT University; Focus Bear Pty Ltd"
+  - family-names: Cuéllar
+    given-names: Andrea
+    affiliation: "Focus Bear Pty Ltd"
+  - family-names: Mena
+    given-names: Hector
+    affiliation: "Universidad Católica de El Salvador (UNICAES)"
+repository-code: "https://github.com/Focus-Bear-research/unicaes-2024-study"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2026-10-16
+keywords:
+  - ADHD
+  - academic self-efficacy
+  - digital self-control tools
+  - university students
+  - El Salvador

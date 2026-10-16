@@ -1,0 +1,3 @@
+outcome,label,n,reliability,sd_pre,s_diff,rci_threshold_points,n_improved,n_deteriorated,n_unchanged,pct_improved,pct_deteriorated
+asrs_total,"ADHD symptoms (ASRS, 18 items)",65,0.8472291544905647,10.16883909114204,5.620909774834727,11.016983158676066,6,1,58,9.23076923076923,1.5384615384615385
+self_efficacy,Academic self-efficacy (10 items),65,0.8983919613107998,5.330067108828498,2.402767279261684,4.709423867352901,18,3,44,27.692307692307693,4.615384615384615

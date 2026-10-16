@@ -1,0 +1,12 @@
+statistic,value
+n_with_demographics,29
+n_cohort,65
+age_mean,21
+age_sd,1.9
+age_median,20
+age_min,18
+age_max,28
+gender_F,25
+gender_M,4
+academic_year_2,2
+academic_year_3,27
