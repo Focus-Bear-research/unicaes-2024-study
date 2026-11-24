@@ -18,7 +18,7 @@ These files contain no direct identifiers and have been checked for indirect one
 | Focus Bear account ID, email address, full name | Direct identifiers. |
 | Survey timestamps | Quasi-identifiers. Only the number of days between the two surveys is kept, rounded to a whole day. |
 | Per-week engagement rates | An exact rate divided into its count reconstructs the unrounded window, so rates are not released. `scripts/run_analysis.py` recomputes them from the counts and the rounded window. |
-| Age, gender, year of study | 29 of 65 participants completed the demographics form, and 8 of those 29 had a unique combination of the three. Only cohort aggregates are released (`cohort_demographics.csv`). These variables are not used in any analysis. |
+| Age, gender, year of study | All 65 participants reported all three, and 9 of the 65 had a unique combination of the three. Only cohort aggregates are released (`cohort_demographics.csv`). These variables are not used in any analysis. |
 
 The mapping from `participant_id` to app accounts is held privately by Focus Bear and is not
 part of this release. `tests/test_dataset.py` checks every release file for identifier-shaped
